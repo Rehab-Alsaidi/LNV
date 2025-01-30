@@ -69,7 +69,7 @@ These values demonstrate how tumor size (TD) influences the selection of the nan
 The liver tumor detection system is implemented using the YOLOv8 architecture, fine-tuned for MRI image analysis. The trained model is available for download in the `.pt` format. This model can be used for precise tumor localization, which is crucial for recommending personalized nanoparticle sizes for treatment based on tumor dimensions.
 
 - **Model**: YOLOv8 for liver tumor detection in MRI images
-- **Download Link**: [YOLOv8 Model (.pt)](path/to/model.pt) (replace with actual path if hosted)
+- **Download Link**: [YOLOv8 Model (.pt)](https://github.com/Rehab-Alsaidi/LNV/blob/main/LNV_model.pt)
 
 ## Publication
 
