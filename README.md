@@ -55,13 +55,29 @@ These values demonstrate how tumor size (TD) influences the selection of the nan
    - The final step involves optimizing the nanoparticle parameters for effective drug delivery. By using the extracted tumor features, nanoparticles are tailored for better interaction with the tumor and to maximize therapeutic efficacy.
 
 ## Results
-- **Detection**: YOLOv8 demonstrated high accuracy in liver tumor localization, achieving a precision of 94%, recall of 96%, and mAP@0.5 of 59%.
+- **Detection**: YOLOv8 demonstrated high accuracy in liver tumor localization, achieving a precision of 99.7%, recall of 98.6%, and mAP@0.5 of 99.5%.
 - **Nanoparticle Design**: The methodology correlates tumor dimensions with nanoparticle sizes, ensuring effective targeted therapy. Tumor size directly impacts nanoparticle design, enhancing treatment efficiency.
 
 ### Performance Metrics
-- **Precision**: 94%
-- **Recall**: 96%
-- **mAP@0.5**: 59%
+- **Precision**: 0.997
+- **Recall**: 0.986
+- **mAP@0.5**: 0.995
+- **mAP50-95**:0.919
+
+## Model
+
+The liver tumor detection system is implemented using the YOLOv8 architecture, fine-tuned for MRI image analysis. The trained model is available for download in the `.pt` format. This model can be used for precise tumor localization, which is crucial for recommending personalized nanoparticle sizes for treatment based on tumor dimensions.
+
+- **Model**: YOLOv8 for liver tumor detection in MRI images
+- **Download Link**: [YOLOv8 Model (.pt)](path/to/model.pt) (replace with actual path if hosted)
+
+## Publication
+
+This work has been published in the IEEE conference, titled:
+
+**Liver Tumor Detection using YOLOv8: Size-Adaptive Nanoparticle Design Based on Tumor Dimensions**  
+The paper discusses the integration of YOLOv8 for tumor localization and how AI can aid in the design of size-adaptive nanoparticles for personalized cancer treatment.
+
 
 ## Conclusion
 This study showcases how AI and nanotechnology can be integrated for improved liver cancer diagnosis and treatment. The YOLOv8-based detection system provides accurate tumor localization, and the nanoparticle design methodology offers a tailored approach to therapy. This framework serves as a step toward personalized medicine, combining computer vision with nanoparticle-based solutions for effective liver tumor management.
