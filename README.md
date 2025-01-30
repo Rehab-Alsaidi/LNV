@@ -12,7 +12,7 @@ This repository implements a liver tumor detection system leveraging YOLOv8 for 
 
 ### **Figure: Methodology for Liver Tumor Detection with YOLOv8 and Adaptive Nanoparticle Sizing Based on Tumor Dimensions**
 
-![Methodology Diagram](assets/methodology_diagram.png)
+![Methodology Diagram](https://github.com/Rehab-Alsaidi/LNV/blob/main/assets/methodology_diagram.png)
 
 This methodology outlines the pipeline for liver tumor detection and characterization, combining deep learning with feature-based analysis for optimal nanoparticle design.
 
